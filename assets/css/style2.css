@@ -1,0 +1,119 @@
+
+
+.list {
+border-right: .5px solid #ccc;
+margin-right: -150px;
+
+}
+
+body {
+	background: url(../images/whirlpool.png);
+}
+
+.topnav {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.topnav a {
+	float:right;
+    display: block;
+    color: #D1D1D1;
+    text-align: center;
+    padding: 40px  5px;
+    text-decoration: none;
+    font-size: 18px;
+	margin-right: 200px;
+}
+header {
+	background-color:#fff;
+	position:relative;
+	border-bottom: 2px solid #ccc;
+	width: 100%;
+	
+}
+.namecard {
+	position:relative;
+}
+
+#TheTopNav {
+	float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+	background-color: #4aaaa5;
+	position:absolute;
+	bottom:0px;
+	left:200px;
+	padding:35px;
+}
+
+.container {
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	margin-left: 200px;
+	float: left;
+	width:40%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.container h2 {
+	font-size: 32px;
+	margin: 0px 0 0 30px;
+	border-bottom: 3px solid #ccc;
+	margin-right: 70px;
+	padding:40px 0;
+	color: #4aaaa5;
+	}
+	
+.ProfilePhoto {
+	margin:20px 20px 10px 30px ;
+	width:30%;
+	float:left;
+}
+.container p {
+	margin-top: 20px;
+	padding-right: 70px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+.smcontainer {
+	background-color: #FFFFFF;
+	border: 1px solid #ccc;
+	float: right;
+	width:25%;
+	margin-top: 50px;
+	margin-right: 200px;
+}
+.smcontainer h3 {
+	font-size: 24px;
+	margin: 0px 0 0 30px;
+	border-bottom: 3px solid #ccc;
+	margin-right: 45px;
+	padding:40px 0;
+	color:#4aaaa5;
+	text-align: center;
+	}
+	
+.icon {
+	width:20%;
+	display:inline-block;
+	padding:2px;
+	margin: 20px 18px;
+}
+
+footer {
+clear:both;
+text-align: center;
+padding:50px;
+background:#666;
+color:#fff;
+border-top:10px solid #4aaaa5;
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+
+}
