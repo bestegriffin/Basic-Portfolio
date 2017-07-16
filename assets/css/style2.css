@@ -83,7 +83,7 @@ width: 960px;
 	margin-bottom: 30px;
 }
 .maincontent h2 {
-	font-size: 22px;
+	font-size: 35px;
 	margin: 0px 0 0 30px;
 	border-bottom: 2px solid #ccc;
 	margin-right: 40px;
@@ -144,4 +144,53 @@ bottom:0;
 left:0;
 right:0;
 
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical;
+	color:#ddd;
+}
+
+
+input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical;
+	color:#777;
+}
+input[type=submit] {
+    background-color: #4aaaac;
+    color: #ddd;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #1E4B4B;
+
+}
+#submit {
+font-size: 20px;
+width:150px;
+}
+
+.basicform {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 20px;margin-bottom: 00px;
+	color: #777;
 }
