@@ -76,20 +76,13 @@ width: 960px;
 
 .maincontent {
 	background-color: #FFFFFF;
-	border: 1px solid #ddd;
 	float: left;
 	max-width:650px;
 	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
+	padding-bottom:30px;
 }
-.maincontent h2 {
-	font-size: 35px;
-	margin: 0px 0 0 30px;
-	border-bottom: 2px solid #ccc;
-	margin-right: 40px;
-	padding:20px 0;
-	color: #4aaaa5;
-	}
+
 .maincontent p{
 	margin:20px 20px 30px 30px;
 
@@ -139,7 +132,7 @@ padding:50px;
 background:#666;
 color:#fff;
 border-top:10px solid #4aaaa5;
-position:fixed;
+position:sticky;
 bottom:0;
 left:0;
 right:0;
@@ -193,4 +186,81 @@ width:150px;
     background-color: #fff;
     padding: 20px;margin-bottom: 00px;
 	color: #777;
+}
+/*
+#wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 5%;	
+}
+*/
+img {
+height:"";
+width:40%;
+float: left;
+display: inline-block;
+position:relative;
+margin-right:2px;
+margin: 0 auto;
+margin:30px;
+border:1px solid #ddd;
+}
+
+ 
+/*
+#gallery {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ max-width:650px;
+ }
+ 
+*/
+ 
+/*
+gallery li {
+float: right;
+margin: 2.5%;
+background-color: #fff;
+color:#fff;
+}
+*/
+
+/*
+#gallery p{
+	margin: 0;
+	padding: 5%;
+	font-size: 1em;
+	color: #fff;
+	position:absolute;
+	bottom:0px;
+}
+*/
+
+.image {
+	position:relative;
+	width: 300px;
+	float:left;
+	display:inline-block;
+	margin: 10px;
+	border: 1px solid #ddd;
+}
+
+
+.h2 {
+position:absolute;
+bottom:32px;
+left:0;
+color:#fff;
+
+}
+
+
+.banner {
+background: #4aaaac;
+width:100%;
+position:absolute;
+bottom: 10px;
+left:0;
+z-index: 1000000;
 }
